@@ -1,5 +1,6 @@
 {
   "name": "sqi-app",
+  "homepage": "https://PranavNarayanan180.github.io/Soil_QI/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview" ,
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.525.0",
     "mathjs": "^14.5.2",
     "react": "^19.1.0",
