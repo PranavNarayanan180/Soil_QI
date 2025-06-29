@@ -1,2 +1,0 @@
-# Soil_QI
-commit
